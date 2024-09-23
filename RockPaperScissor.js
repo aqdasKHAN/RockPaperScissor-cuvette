@@ -110,7 +110,7 @@ function getIconForUser(Userchoice){
         document.getElementById('player-choice-circle').style.borderColor = "#FFA943"
         return "paper.png"
     }
-    if (Userchoice === 'scissors'){
+    if (Userchoice === 'scissor'){
         document.getElementById('player-choice-circle').style.borderColor = "#BD00FF"
         return "scissor.png"
     }
